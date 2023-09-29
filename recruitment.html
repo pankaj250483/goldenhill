@@ -21,7 +21,31 @@
 	<!-- jQuery and Modernizr-->
 	<script src="js/jquery-2.1.1.js"></script>
 
-	
+	<script type="text/javascript">
+        $(document).ready(function() {
+            $("#but_upload").click(function() {
+                var fd = new FormData();
+                var files = $('#file')[0].files[0];
+                fd.append('file', files);
+       
+                $.ajax({
+                    url: 'upload.php',
+                    type: 'post',
+                    data: fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(response){
+                        if(response != 0){
+                           alert('file uploaded');
+                        }
+                        else{
+                            alert('file not uploaded');
+                        }
+                    },
+                });
+            });
+        });
+    </script>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -153,12 +177,12 @@
 					<hr>
 					<p>Step 2 :- Fill the Application Form</p>
 					<hr>
-					<form action="#" class="border border-1 text-start justify-content-start d-flex">
+					<form action="sendmail.php" class="border border-1 text-start justify-content-start d-flex" enctype="multipart/form-data" method="POST">
 						<p>Step 3 :- Upload the Filled Application Form</p>
 						<h5 style="text-align:left">Upload Application Form :</h5>
 						<p>Please attach .Doc File Only</p>
 						<input class="w-100"
-						name="userImage" id="userImage" type="file"
+						name="attachment" id="attachment" type="file"
                         accept=".doc" required
 						>
 						<input type="submit" class="w-50 btn btn-success">
