@@ -1,9 +1,10 @@
 <?php
- echo "welcome";
+// echo "welcome";
+//print_r($_FILES);
 if(isset($_FILES['attachment']))
 {
-    $from_email         = 'sender@abc.com'; //from mail, sender email address
-    $recipient_email = 'pankaj250483@gmail.com'; //recipient email address
+    $from_email         = 'Goldenhill@goldenhillhealthcare.co.uk'; //from mail, sender email address
+    $recipient_email = 'pankaj250483@gmail.com'; //recipient email address contact@goldenhillhealthcare.co.uk
      
     //Load POST data from HTML form
     $sender_name = "Golden Hill Health Care"; //sender name
@@ -62,8 +63,8 @@ if(isset($_FILES['attachment']))
     $sentMailResult = mail($recipient_email, $subject, $body, $headers);
  
     if($sentMailResult ){
-        echo "<h3>File Sent Successfully.<h3>";
-        // unlink($name); // delete the file after attachment sent.
+        echo "The File is uploaded Successfully. We will contact you soon. Thanks.";
+         unlink($name); // delete the file after attachment sent.
     }
     else{
         die("Sorry but the email could not be sent.
