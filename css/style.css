@@ -501,3 +501,21 @@ a.btn:focus{outline: 0;}
 .breadcrumb > li + li::before{color: #aaa;content: "/ ";padding: 0 12px;}
 .breadcrumb li a{font-size: 18px; color: #1e1e1e;}
 .breadcrumb li a:hover{color: #FE3F5E;}
+
+.bg-dark
+{
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link:link,.nav-link:active, .nav-link:hover, .nav-link:visited
+{
+	color: white !important;
+	font-size: 20px !important;
+	font-family: 'Playfair Display', Times, serif;
+	text-decoration: none;
+}
+
+.nav-link:hover
+{
+	color: #3790c9 !important;
+}

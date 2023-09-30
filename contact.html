@@ -10,8 +10,10 @@
     <title>Goldenhill Healthcare</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 	<!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet">
 	
@@ -29,85 +31,45 @@
         <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-  <body>
+  <body style="background-color: #f8f9f1;">
 	  
 	<!--Top-->
 	<header class="main-header">
 		
 		<!--Navigation-->
-		<nav id="menu" class="navbar">
-			<div class="container">
-				<div class="navbar-header">
-					<div class="navbar-brand">
-						<a class="navbar-brand-link" href="index.html">
-							<img src="images/logo.png" />
-						</a>
-					</div>
-					<center><button type="button" class="btn btn-navbar navbar-toggle visible-xs" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button></center>
-				</div>
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="index.html">
-								Home
-							
-							</a>
-						</li>
-						<li>
-							<a href="about.html">
-								About
-							
-							</a>
-						</li>
-                        	<li class="dropdown">
-								<a href="homecareServices.html">Homecare Services</a> 
-						</li>
-						<!--dropdown-->
-							<div class="dropdown-menu" style="margin-left: -203.625px;">
-								<div class="dropdown-inner">
-									<ul class="list-unstyled">
-										<li><a href="homecare">Homecare</a></li>
-										
-									</ul>
-									<ul class="list-unstyled">
-										<li><a href="live-in-care">Live-In</a></li>
-										
-									</ul>
-									<ul class="list-unstyled">
-										<li><a href="respite">Respite</a></li>
-										
-									</ul>
-								</div>
-							</div>
-						<!--/dropdown-->
-						<li>
-							<a href="whatweprovide.html">
-								what we provide
-							
-								
-							</a>
-						</li>
-                        
-                        <li>
-							<a href="recruitment.html">
-								Recruitment
-							
-							</a>
-						</li>
-                        
-                        
-						
-						<li>
-							<a href="contact.html">
-								Contact
-								
-							</a>
-						</li>
-					</ul>
-				</div>
+	
+		<nav class="navbar navbar-expand-lg bg-dark text-light">
+			<div class="container justify-content-center py-2 pe-5">
+			  <a class="navbar-brand text-center" href="index.html"><img src="images/logo.png" class="w-50 pb-2"/></a>
+			
+			  <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav w-100 justify-content-around">
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="homecareServices.html">Homecare Service</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="whatweprovide.html">What we provide</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="recruitment.html">Recruitment</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				  </li>
+				</ul>
+			  </div>
 			</div>
-		</nav>
-		
+		  </nav>
+	
 		<!-- Static Header -->
 		<div class="header-text">
 			<div class="col-md-12 text-center">
@@ -125,29 +87,95 @@
 <div id="page-content">
 	
 		
-		<!-- ////////////Content Box 07 -->
-	<section class="box-content box-7 box-style-2">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="box-item">
-						<div class="box-item-header">
-						<p>Contact us. </p>
-						</div>
-					</div> 
-					<h5 style="text-align: left;"><b>number - 01782971908</b></h5>
-					<h5 style="text-align: left;"><b>Address - 9/10 Tower Street, Tunstall, Stoke on Trent, ST6 5AB 
-						
-						</b></h5>
-					<h5 style="text-align: left;"><b>Email -Contact@goldenhillhealthcare.co.uk
 
-					</b></h5>
+</div> 
+
+
+	<style>
+
+		a:link,a:active,a:hover,a:visited
+		{
+			color:  #e6be99; !important;
+			text-decoration: none;
+		}
+
+		a:hover
+		{
+			color: goldenrod !important;
+			text-decoration: underline;
+		}
+
+		h2,h3,h4
+		{
+			font-family: Satisfy !important;
+			color: #e6be99;
+		}
+
+
+	</style>
+
+<div class="container pb-5">
+	<div class="row justify-content-center">
+		<div class="col-md-12 text-center py-5">
+			<h2>Contact Us</h2>
+			<h3 class="text-dark mt-3">To enquire about any of our services</h3>
+			
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div class="col-md-6 border border-1 px-5 py-2 bg-white">
+			<h4 class="text-dark mt-3">Please get in touch with us.</h4>
+			<p>Use our enquiry form below and someone will get back to you as soon as possible.</p>
+			<p>* Indicates required field</p>
+			<form action="sendmail-contact.php" class="" enctype="multipart/form-data" method="POST" onsubmit="event.preventDefault();">
+				<div class="mb-3">
+					<label for="fullname" class="form-label">Full Name * </label>
+					<input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
+				  </div>
+				  <div class="mb-3">
+					<label for="email" class="form-label">Email address * </label>
+					<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+				  </div>
+			<div class="mb-3">
+				<label for="phonenumber" class="form-label">Phone Number * </label>
+				<input type="text" class="form-control" id="phonenumber" placeholder="01 1234 5678" required>
+			  </div>
+			
+			  <div class="mb-3">
+				<label for="message" class="form-label">Message </label>
+				<textarea class="form-control" id="message" rows="5" style="height:200px;"></textarea>
+			  </div>
+			  <div class="mb-3 justify-content-center d-flex">
+			  <input type="submit" class="btn btn-outline-warning m-auto w-50">
+			  </div>
+			</form>
+			  
+		</div>
+		<div class="col-md-6 text-center">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/logo.png" class="w-100">
+				</div>
+				<div class="col-md-6 text-center py-5">
+					<h5>Registered Office:</h5>
+					<h6>9/10 Tower Street, Tunstall,<br> Stoke on Trent, ST6 5AB </h6>
 				</div>
 			</div>
+			
+			<h6 class="py-3 pt-5">Telephone: - <a href="tel:01782971908">017 8297 1908</a></h6>
+			
+			<h6 class="py-3">Email - <a href="mail:contact@goldenhillhealthcare.co.uk">Contact@goldenhillhealthcare.co.uk</a></h6>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1198.9380745681074!2d-2.211181449130181!3d53.058532761247896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a42db592fe935%3A0x3e3cf33ff2a568a3!2s9%2C%2010%20Tower%20Square%2C%20Tunstall%2C%20Stoke-on-Trent%20ST6%205AB%2C%20UK!5e0!3m2!1sen!2sin!4v1696051343354!5m2!1sen!2sin" 
+			style="border:0;width:100%;height: 450px;;" class="pt-5" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+			</div>
 		</div>
-	</section>
-</div> 
-	  
+	</div>
+
+</div>
 	  
 	  <!--footer start-->			
 	
@@ -178,7 +206,33 @@
 	</footer>
 	<!-- Footer -->
 	  
-	  
+	<script type="text/javascript">
+        $(document).ready(function() {
+            $("#but_upload").click(function() {
+                var fd = new FormData();
+                fd.append('fullname', fullname.value);
+				fd.append('email', email.value);
+				fd.append('phonenumber', phonenumber.value);
+				fd.append('message', message.value);
+       		   
+                $.ajax({
+                    url: 'sendmail-contact.php',
+                    type: 'post',
+                    data: fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(response){
+                        if(response != 0){
+                           alert(response);
+                        }
+                        else{
+                            alert('Error Occured!!! Please try later or contact site admin.');
+                        }
+                    },
+                });
+            });
+        });
+    </script>  
 	  
 	  
 
