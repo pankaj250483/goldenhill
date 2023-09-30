@@ -9,6 +9,7 @@ Free Bootstrap Themes : https://www.Zerotheme.com
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Mooli&family=Satisfy&display=swap');
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -518,4 +519,44 @@ a.btn:focus{outline: 0;}
 .nav-link:hover
 {
 	color: #3790c9 !important;
+}
+
+a:link,a:active,a:hover,a:visited
+{
+	color:  #e6be99; !important;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: goldenrod !important;
+	text-decoration: underline;
+}
+
+h2,h3,h4
+{
+	font-family: Satisfy !important;
+	color: #e6be99;
+}
+
+body
+{
+	background-color: #f8f9f1;
+}
+
+.r-20
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px !important;
+	letter-spacing: 2px;
+	hyphens: none;
+}
+
+.r-32
+{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 32px !important;
+	letter-spacing: 2px;
+	hyphens: none;
+	font-weight: 900;
 }
