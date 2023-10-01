@@ -10,8 +10,10 @@
     <title>Goldenhill Healthcare</title>
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	
+       <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 	<!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet">
 	
@@ -35,78 +37,37 @@
 	<header class="main-header">
 		
 		<!--Navigation-->
-		<nav id="menu" class="navbar">
-			<div class="container">
-				<div class="navbar-header">
-					<div class="navbar-brand">
-						<a class="navbar-brand-link" href="index.html">
-							<img src="images/logo.png" />
-						</a>
-					</div>
-					<center><button type="button" class="btn btn-navbar navbar-toggle visible-xs" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button></center>
-				</div>
-				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="index.html">
-								Home
-							
-							</a>
-						</li>
-						<li>
-							<a href="about.html">
-								About
-							
-							</a>
-						</li>
-                        	<li class="dropdown">
-								<a href="homecareServices.html">Homecare Services</a> 
-						</li>
-						<!--dropdown-->
-							<div class="dropdown-menu" style="margin-left: -203.625px;">
-								<div class="dropdown-inner">
-									<ul class="list-unstyled">
-										<li><a href="homecare">Homecare</a></li>
-										
-									</ul>
-									<ul class="list-unstyled">
-										<li><a href="live-in-care">Live-In</a></li>
-										
-									</ul>
-									<ul class="list-unstyled">
-										<li><a href="respite">Respite</a></li>
-										
-									</ul>
-								</div>
-							</div>
-						<!--/dropdown-->
-						<li>
-							<a href="whatweprovide.html">
-								what we provide
-							
-								
-							</a>
-						</li>
-                        
-                        <li>
-							<a href="recruitment.html">
-								Recruitment
-							
-							</a>
-						</li>
-                        
-                        
-						
-						<li>
-							<a href="contact.html">
-								Contact
-								
-							</a>
-						</li>
-					</ul>
-				</div>
+		<nav class="navbar navbar-expand-lg bg-dark text-light">
+			<div class="container justify-content-center py-2 pe-5">
+			  <a class="navbar-brand text-center" href="index.html"><img src="images/logo.png" class="w-50 pb-2"/></a>
+			
+			  <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav w-100 justify-content-around">
+				  <li class="nav-item">
+					<a class="nav-link" aria-current="page" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="homecareServices.html">Homecare Service</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="whatweprovide.html">What we provide</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="recruitment.html">Recruitment</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				  </li>
+				</ul>
+			  </div>
 			</div>
-		</nav>
+		  </nav>
 		
 		<!-- Static Header -->
 		<div class="header-text">
@@ -128,7 +89,7 @@
 		<section class="box-content box-7 box-style-2">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8">
+					<div class="col-md-7">
 						<div class="box-item">
 						<div class="box-item-header">
 						<p>Homecare Services</p>

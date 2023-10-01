@@ -4,7 +4,7 @@
 if(isset($_FILES['attachment']))
 {
     $from_email         = 'Goldenhill@goldenhillhealthcare.co.uk'; //from mail, sender email address
-    $recipient_email = 'pankaj250483@gmail.com'; //recipient email address contact@goldenhillhealthcare.co.uk
+    $recipient_email = 'contact@goldenhillhealthcare.co.uk'; //recipient email address  contact@goldenhillhealthcare.co.uk
      
     //Load POST data from HTML form
     $sender_name = "Golden Hill Health Care"; //sender name
