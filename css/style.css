@@ -548,7 +548,7 @@ body
 {
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 20px !important;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	hyphens: none;
 }
 
@@ -556,7 +556,11 @@ body
 {
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 32px !important;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	hyphens: none;
 	font-weight: 900;
+}
+.text-warning
+{
+		color: #e6be99 !important;
 }
